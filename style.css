@@ -17,6 +17,9 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+button{
+    cursor: pointer;
+}
 
 /* --------------- NAV BAR ---------------*/
 header{
@@ -67,6 +70,7 @@ nav .nav-link{
 }
 .hero-container button{
     background-color: #3882f6;
+    color: #f9faf8;
     border: none;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
@@ -100,5 +104,64 @@ h2{
 .photo-container p{
     font-size: 1.5rem;
     padding: .2rem;
+    text-align: center;
+}
+
+
+/* --------------- QUOTE CONTAINER ---------------*/
+.quote-container{
+    padding: 10rem 20rem;
+    background-color: #e5e7eb;
+}
+.quote-container q{
+font-size: 3rem;
+}
+.quote-container figcaption{
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+
+/* --------------- CALL TO ACTION CONTAINER ---------------*/
+.call-to-action-container{
+    padding: 10rem 15rem;
+}
+.call-to-action-box{
+    display: flex;
+    padding: 3rem 5rem;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 2rem;
+}
+.call-to-action-txt{
+    margin-right: auto;
+}
+.call-to-action-txt h3{
+    font-size: 3rem;
+}
+.call-to-action-txt p{
+    font-size: 1.5rem;
+}
+.call-to-action-button{
+    display: flex;
+    align-items: center;
+}
+.call-to-action-button button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: solid;
+    border-color: #f9faf8;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+/* --------------- FOOTER ---------------*/
+footer{
+    padding: 5rem 15rem;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 1.5rem;
     text-align: center;
 }
