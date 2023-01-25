@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* padding: 0 15rem; */
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* --------------- NAV BAR ---------------*/
+header{
+    padding: 0 15rem;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 1.5rem 0rem;
+    align-items: center;
+}
+
+ul .logo{
+    font-size: 2.5rem;
+    margin-right: auto;
+}
+nav .nav-link{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+
+/* --------------- HERO ---------------*/
+.hero-container{
+    display: flex;
+    padding: 5rem 15rem;
+    background-color: #1f2937;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-container div{
+    max-width: 50rem;
+}
+.hero-container h1{
+    font-size: 5.5rem;
+}
+.hero-container p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.hero-container img{
+    max-width: 50rem;
+}
+.hero-container button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
+}
+.hero-container a{
+    color: #f9faf8;
+}
+
+
+/* --------------- PHOTO CONTAINER ---------------*/
+h2{
+    font-size: 4rem;
+    padding: 0 15rem;
+    padding-top: 5rem;
+    text-align: center;
+    color: #1f2937;
+}
+.photo-container{
+    display: flex;
+    padding: 5rem 15rem;
+    justify-content: space-around;
+}
+.photo-container div{
+    max-width: 15rem;
+}
+.photo-container img{
+    max-width: 15rem;
+    border-radius: 2rem;
+}
+.photo-container p{
+    font-size: 1.5rem;
+    padding: .2rem;
+    text-align: center;
+}
